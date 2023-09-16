@@ -6,6 +6,8 @@ A simple python script that checks the weather in any city you input by name.
 ## HOW TO USE
 The program is pretty self explanitory however you will need an API key from [weatherstack](https://weatherstack.com/), you will be prompted when this will need to be entered.
 
+If you don't want to use a python terminal directly you can use the windows executable found in the releases [here](https://github.com/MontyEAG/WeatherApp/releases/tag/v1.0.0).
+
 ## License
 
 [CC](http://creativecommons.org/licenses/by/4.0/)
