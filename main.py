@@ -92,17 +92,6 @@ def clear():
         os.system("clear")
     print(color)
 
-def getCountry():
-    try:
-        response = requests.get('https://ipinfo.io')
-        data = response.json()
-        country = data.get('country')
-        return country
-
-    except Exception as e:
-        print(f"Error: {str(e)}")
-        return None
-
 def cToF(celsius):
     fahrenheit = (celsius * 9/5) + 32
     return fahrenheit
